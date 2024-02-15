@@ -1,0 +1,6 @@
+w=input("Enter the word: ")
+s=input("Enter the sentence: ")
+sl=s.lower()
+wl=w.lower()
+c=sl.count((w))
+print("Count of the given word in the given sentence is: ",c)

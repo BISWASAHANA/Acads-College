@@ -1,0 +1,5 @@
+fr,fc=map(int,input("Enter the real and complex part of the first number: (with space)").split())
+f=complex(fr,fc)
+sr,sc=map(int,input("Enter the real and complex part of the second number: (with space)").split())
+s=complex(sr,sc)
+print(f+s)
